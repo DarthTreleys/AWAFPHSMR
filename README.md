@@ -20,8 +20,8 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
 
    ```sql
    CREATE DATABASE hardeningdb;
-    ```sql
     USE hardeningdb;
+
 ```sql
 CREATE TABLE USUARIS (
   ID_Usuari INT AUTO_INCREMENT PRIMARY KEY,
