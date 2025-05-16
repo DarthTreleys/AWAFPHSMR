@@ -25,8 +25,8 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
    sudo mv * /var/www/html/
 4. Añadir el usuario www-data al archivo sudoers
    ```bash
-      sudo visudo
-      www-data ALL=(ALL) NOPASSWD: ALL
+   sudo visudo
+   www-data ALL=(ALL) NOPASSWD: ALL
 5. Dar permisos SUID a los scripts Python
    ```bash
    sudo chmod u+s /var/www/html/actus.py
