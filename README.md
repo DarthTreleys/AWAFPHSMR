@@ -31,7 +31,7 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
    ```bash
    sudo chmod u+s /var/www/html/actus.py
    sudo chmod u+s /var/www/html/backup.py
-Repetir para todos los scripts necesarios
+   #Repetir para todos los scripts necesarios
 
 6. Acceder desde un navegador
 ```cpp
