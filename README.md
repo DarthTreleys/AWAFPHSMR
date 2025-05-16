@@ -19,12 +19,11 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
 2. Crear una base de datos en MySQL llamada "ProjecteFinal" que contenga una tabla de usuarios con la siguiente estructura:
 
    ```sql
-   CREATE DATABASE ProjecteFinal;
-    USE hardeningdb;
-
-```sql
-CREATE TABLE USUARIS (
-  ID_Usuari INT AUTO_INCREMENT PRIMARY KEY,
-  User VARCHAR(50),
-  Password VARCHAR(100)
-);
+      CREATE DATABASE ProjecteFinal;
+       USE ProjecteFinal;
+   
+   CREATE TABLE USUARIS (
+     ID_Usuari INT AUTO_INCREMENT PRIMARY KEY,
+     User VARCHAR(50),
+     Password VARCHAR(100)
+   );
