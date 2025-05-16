@@ -22,7 +22,7 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
 ## Instalación de la aplicación
 3. Mover todos los archivos del proyecto a la carpeta /var/www/html
    ```bash
-   sudo mv * /var/www/html/
+   sudo mv [NOMBRE_DEL_FICHERO] /var/www/html/
 4. Añadir el usuario www-data al archivo sudoers
    ```bash
    sudo visudo
