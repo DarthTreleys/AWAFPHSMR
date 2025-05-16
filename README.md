@@ -3,14 +3,6 @@
 Este proyecto ha sido desarrollado por estudiantes del Ciclo Formativo de Grado Superior en Administración de Sistemas Informáticos en Red (ASIX) - 2º curso.  
 Consiste en una **aplicación web** diseñada para **automatizar scripts de hardening** dentro de un servidor Ubuntu.
 
-## Requisitos Previos
-
-Antes de ejecutar la aplicación, asegúrate de que tu servidor Ubuntu cuenta con los siguientes elementos instalados:
-
-- **Ubuntu Server**
-- **MySQL Server**
-- **Apache2 Web Server**
-
 ## Requisitos previos
 
 Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requisitos:
@@ -27,3 +19,20 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
      User VARCHAR(50),
      Password VARCHAR(100)
    );
+## Instalación de la aplicación
+3. Mover todos los archivos del proyecto a la carpeta /var/www/html
+   ```bash
+   sudo mv * /var/www/html/
+4. Añadir el usuario www-data al archivo sudoers
+   ```bash
+      sudo visudo
+      www-data ALL=(ALL) NOPASSWD: ALL
+5. Dar permisos SUID a los scripts Python
+   ```bash
+   sudo chmod u+s /var/www/html/actus.py
+   sudo chmod u+s /var/www/html/backup.py
+# Repetir para todos los scripts necesarios
+
+6. Acceder desde un navegador
+```cpp
+   http://[IP_DEL_SERVIDOR]/
