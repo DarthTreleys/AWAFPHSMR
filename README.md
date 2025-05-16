@@ -11,12 +11,17 @@ Antes de ejecutar la aplicación, asegúrate de que tu servidor Ubuntu cuenta co
 - **MySQL Server**
 - **Apache2 Web Server**
 
-## Preparación de la Base de Datos
+## Requisitos previos
 
-1. Accede al gestor de base de datos MySQL.
-2. Crea una base de datos para el proyecto (puede llamarse, por ejemplo, `hardening_db`).
-3. Dentro de dicha base de datos, crea la tabla de usuarios con la siguiente estructura inicial:
+Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requisitos:
 
+1. Tener un **servidor Ubuntu** con **MySQL** y **Apache2** instalados.
+2. Crear una base de datos en MySQL llamada "ProjecteFinal" que contenga una tabla de usuarios con la siguiente estructura:
+
+   ```sql
+   CREATE DATABASE hardeningdb;
+    ```sql
+    USE hardeningdb;
 ```sql
 CREATE TABLE USUARIS (
   ID_Usuari INT AUTO_INCREMENT PRIMARY KEY,
