@@ -34,5 +34,9 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
    #Repetir para todos los scripts necesarios
 
 6. Acceder desde un navegador
-```cpp
+   ```cpp
    http://[IP_DEL_SERVIDOR]/
+
+7. Crear un usuario desde la plana o iniciar sesión con un uno previamente creado dentro de la base de datos mediante:
+   ```sql
+   INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑADELUSUARIO');
