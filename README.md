@@ -39,4 +39,4 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
 
 7. Crear un usuario desde la plana o iniciar sesión con un uno previamente creado dentro de la base de datos mediante:
    ```sql
-   INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑADELUSUARIO');
+   INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑAUSUARIO');
