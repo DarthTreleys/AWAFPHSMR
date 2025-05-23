@@ -42,4 +42,7 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
    INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑAUSUARIO');
 8. Una vez dentro se presentará esta interfaz:
 ![image](https://github.com/user-attachments/assets/bb92b60c-a931-44f1-a1c0-db52f756d0cd)
+Dentro del índice lateral aparece una lista de comandos a ejecutar:
+![image](https://github.com/user-attachments/assets/7de3d7cb-5211-41dc-a450-f1db967bd5d2)
+
 
