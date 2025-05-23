@@ -47,12 +47,12 @@ Dentro del índice lateral aparece una lista de comandos a ejecutar:
    ![image](https://github.com/user-attachments/assets/7de3d7cb-5211-41dc-a450-f1db967bd5d2)
 
    En dicha lista, al seleccionar una de las categorías, se rederigirá automátimaticamente a la plana donde se ejecutará el script seleccionado:
-   ![image](https://github.com/user-attachments/assets/68772389-e216-404f-8c9a-7f152f2a8ef8)
-   
-   En esta plana se realizarán los backups.
 
-   ![image](https://github.com/user-attachments/assets/8329ed67-703a-4625-8c61-fb21e9c8aca4)
-   
+   En esta plana se realizarán los backups.
+   ![image](https://github.com/user-attachments/assets/68772389-e216-404f-8c9a-7f152f2a8ef8)
+
    En esta plana eliminarán los archivos temporales.
+   ![image](https://github.com/user-attachments/assets/8329ed67-703a-4625-8c61-fb21e9c8aca4)
+
 
 
