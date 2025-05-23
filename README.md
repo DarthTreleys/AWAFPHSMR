@@ -37,10 +37,15 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
    ```cpp
    http://[IP_DEL_SERVIDOR]/
 
-7. Crear un usuario desde la plana o iniciar sesión con un uno previamente creado dentro de la base de datos mediante:
+7. Crear un usuario desde la plana o iniciar sesión con un uno previamente creado dentro de la base de datos mediante los siguientes métodos:
+   
+   Con la plana en cuestión en caso de querer hacer un registro desde la web:
+   ![image](https://github.com/user-attachments/assets/84573c0c-31dd-44a1-81ef-ae7554f0de25)
+   
+   O mediante una inserción en la base de datos:
    ```sql
    INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑAUSUARIO');
-8. Una vez dentro se presentará esta interfaz:
+9. Una vez dentro se presentará esta interfaz:
 ![image](https://github.com/user-attachments/assets/bb92b60c-a931-44f1-a1c0-db52f756d0cd)
 Dentro del índice lateral aparece una lista de comandos a ejecutar:
 
@@ -51,8 +56,20 @@ Dentro del índice lateral aparece una lista de comandos a ejecutar:
    En esta plana se realizarán los backups.
    ![image](https://github.com/user-attachments/assets/68772389-e216-404f-8c9a-7f152f2a8ef8)
 
-   En esta plana eliminarán los archivos temporales.
+   En esta plana se eliminarán los archivos temporales.
    ![image](https://github.com/user-attachments/assets/8329ed67-703a-4625-8c61-fb21e9c8aca4)
+
+   En esta plana se organizarán los ficheros según su formato.
+   ![image](https://github.com/user-attachments/assets/6b51a092-93d5-414f-a67d-b3530fd82f14)
+
+   En esta plana se monitorizará el estado del servidor.
+   ![image](https://github.com/user-attachments/assets/84705c34-0bcc-4394-b34a-849397b30c58)
+
+   En esta plana se crearán puntos de restauración en una unidad externa.
+   ![image](https://github.com/user-attachments/assets/86cbd129-264a-4ad2-98d6-8d0b24944004)
+
+
+
 
 
 
