@@ -45,5 +45,8 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
 Dentro del índice lateral aparece una lista de comandos a ejecutar:
 
    ![image](https://github.com/user-attachments/assets/7de3d7cb-5211-41dc-a450-f1db967bd5d2)
+En dicha lista, al seleccionar una de las categorías, se rederigirá automátimaticamente a las plana donde se ejecutará el script seleccionado:
+![image](https://github.com/user-attachments/assets/68772389-e216-404f-8c9a-7f152f2a8ef8)
+
 
 
