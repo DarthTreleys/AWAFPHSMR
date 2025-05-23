@@ -40,3 +40,6 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
 7. Crear un usuario desde la plana o iniciar sesión con un uno previamente creado dentro de la base de datos mediante:
    ```sql
    INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑAUSUARIO');
+8. Una vez dentro se presentará esta interfaz:
+![image](https://github.com/user-attachments/assets/bb92b60c-a931-44f1-a1c0-db52f756d0cd)
+
