@@ -37,12 +37,7 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
    ```cpp
    http://[IP_DEL_SERVIDOR]/
 
-7. Cree un usuario desde la plana de login o inicie sesión con uno previamente creado dentro de la base de datos mediante los siguientes métodos:
-   
-   Con la plana en cuestión en caso de querer hacer un registro desde la aplicación web:
-   ![image](https://github.com/user-attachments/assets/84573c0c-31dd-44a1-81ef-ae7554f0de25)
-   
-   O mediante una inserción en la base de datos:
+7. Cree un usuario  dentro de la base de datos mediante los siguientes métodos para poder iniciar sesión:
    ```sql
    INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑAUSUARIO');
 9. Una vez dentro se presentará esta interfaz:
@@ -68,7 +63,10 @@ Dentro del índice lateral aparecerá una lista de comandos a ejecutar:
    En esta plana se crearán puntos de restauración en una unidad externa.
    ![image](https://github.com/user-attachments/assets/86cbd129-264a-4ad2-98d6-8d0b24944004)
 
-10. Dicho todo esto, ya tiene todo el conocimiento para poder configurar y ejecutar nuestra aplicación web en su servidor de Ubuntu, si tiene alguna duda, no dude en ponerse en contacto con cualquiera de los autores de este proyecto a través de Github.
+   Esta plana permitirá crear nuevos usuarios sin necesidad de hacer inserciones dentro de la base de datos de manera manual:
+   ![image](https://github.com/user-attachments/assets/84573c0c-31dd-44a1-81ef-ae7554f0de25)
+
+11. Dicho todo esto, ya tiene todo el conocimiento para poder configurar y ejecutar nuestra aplicación web en su servidor de Ubuntu, si tiene alguna duda, no dude en ponerse en contacto con cualquiera de los autores de este proyecto a través de Github.
 
 
 
