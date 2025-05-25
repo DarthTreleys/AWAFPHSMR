@@ -7,8 +7,8 @@ Consiste en una **aplicación web** diseñada para **automatizar scripts de hard
 
 Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requisitos:
 
-1. Tener un **servidor Ubuntu** con **MySQL** y **Apache2** instalados.
-2. Crear una base de datos en MySQL llamada "ProjecteFinal" que contenga una tabla de usuarios con la siguiente estructura:
+1. Debe tener un **servidor Ubuntu** con **MySQL** y **Apache2** instalados.
+2. Debe crear una base de datos en MySQL llamada "ProjecteFinal" que contenga una tabla de usuarios con la siguiente estructura:
 
    ```sql
    CREATE DATABASE ProjecteFinal;
@@ -20,26 +20,26 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
      Password VARCHAR(100)
    );
 ## Instalación de la aplicación
-3. Mover todos los archivos del proyecto a la carpeta /var/www/html
+3. Mueva todos los archivos del proyecto a la carpeta /var/www/html
    ```bash
    sudo mv [NOMBRE_DEL_FICHERO] /var/www/html/
-4. Añadir el usuario www-data al archivo sudoers
+4. Añada el usuario www-data al archivo sudoers
    ```bash
    sudo visudo
    www-data ALL=(ALL) NOPASSWD: ALL
-5. Dar permisos SUID a los scripts Python
+5. De permisos SUID a los scripts Python
    ```bash
    sudo chmod u+s /var/www/html/actus.py
    sudo chmod u+s /var/www/html/backup.py
    #Repetir para todos los scripts necesarios
 
-6. Acceder desde un navegador
+6. Acceda desde un navegador
    ```cpp
    http://[IP_DEL_SERVIDOR]/
 
-7. Crear un usuario desde la plana o iniciar sesión con un uno previamente creado dentro de la base de datos mediante los siguientes métodos:
+7. Cree un usuario desde la plana de login o inicie sesión con uno previamente creado dentro de la base de datos mediante los siguientes métodos:
    
-   Con la plana en cuestión en caso de querer hacer un registro desde la web:
+   Con la plana en cuestión en caso de querer hacer un registro desde la aplicación web:
    ![image](https://github.com/user-attachments/assets/84573c0c-31dd-44a1-81ef-ae7554f0de25)
    
    O mediante una inserción en la base de datos:
@@ -47,7 +47,7 @@ Antes de utilizar la aplicación, asegúrate de cumplir con los siguientes requi
    INSERT INTO USUARIS (User, Password) VALUES ('NOMBREUSUARIO', 'CONTRASEÑAUSUARIO');
 9. Una vez dentro se presentará esta interfaz:
 ![image](https://github.com/user-attachments/assets/bb92b60c-a931-44f1-a1c0-db52f756d0cd)
-Dentro del índice lateral aparece una lista de comandos a ejecutar:
+Dentro del índice lateral aparecerá una lista de comandos a ejecutar:
 
    ![image](https://github.com/user-attachments/assets/7de3d7cb-5211-41dc-a450-f1db967bd5d2)
 
