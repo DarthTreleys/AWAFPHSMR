@@ -68,7 +68,7 @@ Dentro del índice lateral aparece una lista de comandos a ejecutar:
    En esta plana se crearán puntos de restauración en una unidad externa.
    ![image](https://github.com/user-attachments/assets/86cbd129-264a-4ad2-98d6-8d0b24944004)
 
-
+10. Dicho todo esto, ya sabes todo lo que tienes que saber para poder configurar y ejecutar nuestra aplicación web en su servidor de Ubuntu, si tiene alguna duda, no dude en ponerse en contacto con cualquiera de los autores de este proyecto a través de Github.
 
 
 
