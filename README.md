@@ -63,7 +63,7 @@ Dentro del índice lateral aparecerá una lista de comandos a ejecutar:
    En esta plana se crearán puntos de restauración en una unidad externa.
    ![image](https://github.com/user-attachments/assets/86cbd129-264a-4ad2-98d6-8d0b24944004)
 
-   Esta plana permitirá crear nuevos usuarios sin necesidad de hacer inserciones dentro de la base de datos de manera manual:
+   Esta plana permitirá crear nuevos usuarios sin necesidad de hacer inserciones dentro de la base de datos de manera manual.
    ![image](https://github.com/user-attachments/assets/84573c0c-31dd-44a1-81ef-ae7554f0de25)
 
 11. Dicho todo esto, ya tiene todo el conocimiento para poder configurar y ejecutar nuestra aplicación web en su servidor de Ubuntu, si tiene alguna duda, no dude en ponerse en contacto con cualquiera de los autores de este proyecto a través de Github.
